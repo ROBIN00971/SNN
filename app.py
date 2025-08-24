@@ -19,7 +19,7 @@ CORS(app) # Enable CORS for all routes
 class SpikingNet(nn.Module):
     def __init__(self):
         super(SpikingNet, self).__init__()
-
+        
         # Define the spiking neuron model: Leaky Integrate-and-Fire (LIF)
         beta = 0.95 # Neuron decay rate
 
