@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SNN Digit Classifier</title>
+    <!-- Link to the external CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>SNN Digit Classifier</h1>
+        <p>Upload a handwritten digit (0-9) to see it classified using SNN principles.</p>
+
+        <form id="upload-form">
+            <div class="form-group">
+                <input type="file" id="image-upload" accept="image/*" required>
+            </div>
+            <button type="submit" id="submit-button">Evaluate Digit</button>
+        </form>
+
+        <div id="results"></div>
+        <div id="loading-spinner" class="loading-spinner"></div>
+    </div>
+
+    <!-- Link to the external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
